@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: ffb019f5a0e0e184a9aa909e17d42c35
+timeCreated: 1460064136
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: adversaire_bleu_0
+    21300002: adversaire_bleu_1
+    21300004: adversaire_bleu_2
+    21300006: adversaire_bleu_3
+    21300008: adversaire_bleu_4
+    21300010: adversaire_bleu_5
+    21300012: adversaire_bleu_6
+    21300014: adversaire_bleu_7
+    21300016: adversaire_bleu_8
+    21300018: adversaire_bleu_9
+    21300020: adversaire_bleu_10
+    21300022: adversaire_bleu_11
+    21300024: adversaire_bleu_12
+    21300026: adversaire_bleu_13
+    21300028: adversaire_bleu_14
+    21300030: adversaire_bleu_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Web
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: adversaire_bleu_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1772
+        width: 79
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adversaire_bleu_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1770
+        width: 74
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adversaire_bleu_2
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1772
+        width: 103
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adversaire_bleu_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1778
+        width: 76
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adversaire_bleu_4
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1778
+        width: 86
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adversaire_bleu_5
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1769
+        width: 90
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adversaire_bleu_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1509
+        width: 154
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adversaire_bleu_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1511
+        width: 145
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adversaire_bleu_8
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1504
+        width: 137
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adversaire_bleu_9
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1500
+        width: 135
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adversaire_bleu_10
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1493
+        width: 157
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adversaire_bleu_11
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1238
+        width: 152
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adversaire_bleu_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1240
+        width: 184
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adversaire_bleu_13
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1248
+        width: 173
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adversaire_bleu_14
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1242
+        width: 175
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adversaire_bleu_15
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1236
+        width: 163
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

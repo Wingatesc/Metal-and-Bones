@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: 7ad68d53852b1bb4f9a21ab337e773e8
+timeCreated: 1463399529
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: adv_death_0
+    21300002: adv_death_1
+    21300004: adv_death_2
+    21300006: adv_death_3
+    21300008: adv_death_4
+    21300010: adv_death_5
+    21300012: adv_death_6
+    21300014: adv_death_7
+    21300016: adv_death_8
+    21300018: adv_death_9
+    21300020: adv_death_10
+    21300022: adv_death_11
+    21300024: adv_death_12
+    21300026: adv_death_13
+    21300028: adv_death_14
+    21300030: adv_death_15
+    21300032: adv_death_16
+    21300034: adv_death_17
+    21300036: adv_death_18
+    21300038: adv_death_19
+    21300040: adv_death_20
+    21300042: adv_death_21
+    21300044: adv_death_22
+    21300046: adv_death_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: adv_death_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1735
+        width: 125
+        height: 255
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1736
+        width: 113
+        height: 252
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_2
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1732
+        width: 112
+        height: 252
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_3
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1732
+        width: 132
+        height: 253
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_4
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1728
+        width: 131
+        height: 252
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_5
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1731
+        width: 211
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_6
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1731
+        width: 220
+        height: 260
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_7
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1735
+        width: 212
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_8
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1740
+        width: 133
+        height: 253
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_9
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1729
+        width: 211
+        height: 244
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1438
+        width: 194
+        height: 239
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1438
+        width: 135
+        height: 243
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_12
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1434
+        width: 132
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_13
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1429
+        width: 202
+        height: 259
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_14
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1432
+        width: 206
+        height: 258
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_15
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1428
+        width: 205
+        height: 263
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_16
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 1429
+        width: 210
+        height: 260
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_17
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1427
+        width: 174
+        height: 247
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_18
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1430
+        width: 170
+        height: 253
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_19
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 1432
+        width: 171
+        height: 254
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_20
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1121
+        width: 184
+        height: 276
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_21
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1123
+        width: 161
+        height: 274
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_22
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1129
+        width: 116
+        height: 270
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: adv_death_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1134
+        width: 132
+        height: 270
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

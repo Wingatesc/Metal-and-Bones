@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Fire
+  - Pouss
+  - Obj_physic
+  - poing
+  - adversaire
+  - mur
+  - GroundCheck
+  - Bullet
+  - Wood
+  - turret
+  - Aspire
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Perso
+  - Ennemi
+  - mur_patrol
+  - Door
+  - Obj_physic
+  - Decor
+  - turret
+  - Bullet_Turret
+  - debrit
+  - gun_perso
+  - meteor
+  - piege_a_balle
+  - piege_glyphe
+  - Attract
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ciel
+    uniqueID: 2306788847
+    locked: 0
+  - name: fond maison
+    uniqueID: 2509150855
+    locked: 0
+  - name: background back
+    uniqueID: 693791779
+    locked: 0
+  - name: background
+    uniqueID: 3826093859
+    locked: 0
+  - name: background_front
+    uniqueID: 1654545131
+    locked: 0
+  - name: door
+    uniqueID: 400615609
+    locked: 0
+  - name: plateforme
+    uniqueID: 1885967793
+    locked: 0
+  - name: physic object
+    uniqueID: 1025297935
+    locked: 0
+  - name: red life bar
+    uniqueID: 3561077289
+    locked: 0
+  - name: green life bar
+    uniqueID: 1787356227
+    locked: 0
+  - name: turret
+    uniqueID: 1810111341
+    locked: 0
+  - name: glyphe balle
+    uniqueID: 2638529113
+    locked: 0
+  - name: ennemie
+    uniqueID: 1535851097
+    locked: 0
+  - name: piege a balle
+    uniqueID: 1945951545
+    locked: 0
+  - name: meteor
+    uniqueID: 817038919
+    locked: 0
+  - name: bullet
+    uniqueID: 2546772143
+    locked: 0
+  - name: perso
+    uniqueID: 1324300653
+    locked: 0
+  - name: sol
+    uniqueID: 801432773
+    locked: 0
