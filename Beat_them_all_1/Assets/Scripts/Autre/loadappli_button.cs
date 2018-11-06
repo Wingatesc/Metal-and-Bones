@@ -1,19 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
+using UnityEditor;
 
 public class loadappli_button : MonoBehaviour {
-	public string levelname;
+    public SceneAsset Scene;
 	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-
 
 	public void OnClick(){
-		Application.LoadLevel(levelname);
+         SceneManager.LoadScene(Scene.name);
 
-	}
+    }
 
 }
