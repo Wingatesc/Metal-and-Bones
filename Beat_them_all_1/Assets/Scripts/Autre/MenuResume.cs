@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MenuResume : MonoBehaviour {
-    public GameObject leMenu;
+    //public GameObject leMenu;
+    public Menu script;
     // Use this for initialization
     void Start () {
         GameObject menuu = GameObject.Find("Menu-script");
-        leMenu = menuu.GetComponent<GameObject>();
+        script = menuu.GetComponent<Menu>();
     }
     public void OnClick()
     {
-        leMenu.SetActive(false);
+        script.open=(false);
         Debug.Log("click");
-
     }
 }

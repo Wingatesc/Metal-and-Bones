@@ -6,11 +6,9 @@ using UnityEditor;
 
 public class Menu : MonoBehaviour {
     public bool open;
-    public GameObject leMenu;
     public GameObject menu;
     void Start () {
-        GameObject menuu = GameObject.Find("Menu");
-        leMenu = menuu.GetComponent<GameObject>();
+        menu = GameObject.Find("Menu");
     }
 
     void Update()
