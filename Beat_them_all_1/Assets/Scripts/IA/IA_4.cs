@@ -1,24 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class IA_4 : MonoBehaviour {
+public class IA_4 : MonoBehaviour
+{
     public bool patroling;
     public bool chasing;
     public bool attacking;
     //********New attack model********
     public bool attacking2;
-    public bool stuned;
-    public bool GonnaAttack1=false;
+    public bool stuned1;
+    public bool stuned2;
+    public bool GonnaAttack1 = false;
     public bool GonnaAttack2;
     public float timerFlashAtck;
     public float timeGonnaAtck = 1f; //time where the character indicates he is gonn attack
+    public float timerStun;
+    public float timerStopStun;
     //************************************
     public SpriteRenderer flip;
     public character_move perso_move;
     public vie_player vie_perso;
     public Transform milieu;
     public Transform perso_chase;
-    public int speed_patrol=3;
+    public int speed_patrol = 3;
     public int speed_chase = 3;
     public int starting_life = 50;
     public int current_life;
@@ -34,10 +38,11 @@ public class IA_4 : MonoBehaviour {
     public float damages;
     public Animator anim;
     public Rigidbody2D rb;
-    public bool droite=true;
+    public bool droite = true;
     public AudioSource sword;
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         current_life = starting_life;
         distance_patrol_plus = milieu.position.x + distance_patrol;
         distance_patrol_moins = milieu.position.x - distance_patrol;
@@ -52,10 +57,31 @@ public class IA_4 : MonoBehaviour {
         GameObject music = GameObject.Find("adv_1_attck");
         sword = music.GetComponent<AudioSource>();
     }
-
+    void stuned()
+    {
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        chasing = false;
+        patroling = false;
+        attacking = false;
+        attacking2 = false;
+        GonnaAttack1 = false;
+        GonnaAttack2 = false;
+        anim.SetBool("Stun1", true);
+        timerStun += Time.deltaTime;
+        if (timerStun >= timerStopStun)
+        {
+            rb.bodyType = RigidbodyType2D.Dynamic;
+            timerStun = 0;
+            stuned1 = false;
+            stuned2 = false;
+            anim.SetBool("Stun1", false);
+            flip.color = new Color(1, 1f, 1f, 1f);
+        }
+    }
     void Update()
     {
-        if (!patroling)
+
+        if (!patroling&&!stuned1&&!stuned2)
         {
             timer_attack += Time.deltaTime;
         }
@@ -69,11 +95,16 @@ public class IA_4 : MonoBehaviour {
             rb.velocity = new Vector2(speed_patrol, rb.velocity.y);
             Patrol_patrol();
         }
-        if (!attacking && Mathf.Round(distance) <= distance_chase && Mathf.Abs(perso_chase.position.y - rb.position.y) < 1)
+        if (!attacking && !stuned1&& !stuned2&& Mathf.Round(distance) <= distance_chase && Mathf.Abs(perso_chase.position.y - rb.position.y) < 1)
+         {
+             chase_chase();
+
+         }
+      /*  if (!attacking && Mathf.Round(distance) <= distance_chase && Mathf.Abs(perso_chase.position.y - rb.position.y) < 1)
         {
             chase_chase();
 
-        }
+        }*/
         if (Mathf.Round(distance) >= distance_chase)
         {
             patroling = true;
@@ -85,6 +116,10 @@ public class IA_4 : MonoBehaviour {
         else
         {
             attacking = false;
+        }
+        if (stuned1)
+        {
+            stuned();
         }
         if (droite)
         {
@@ -136,9 +171,10 @@ public class IA_4 : MonoBehaviour {
     }
     void Attack_attack()
     {
-        if (timerFlashAtck <=timeGonnaAtck) {
+        if (timerFlashAtck <= timeGonnaAtck)
+        {
             timerFlashAtck += Time.deltaTime;
-            flip.color = new Color(1, 0.1f, 0.1f, 0.7f);
+            flip.color = new Color(0.1f, 0.5f, 1f, 1f);
             GonnaAttack1 = true;
         }
 
@@ -160,12 +196,25 @@ public class IA_4 : MonoBehaviour {
     {
 
         distance = Vector2.Distance(perso_chase.transform.position, rb.transform.position);
-
-
-
     }
+
     void Perso_chase()
     {
         position_perso = perso_chase.transform.position.x;
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("void on trigger");
+        if (collision.gameObject.tag == ("Pouss") && GonnaAttack1)
+        {
+            Debug.Log("collide with pouss");
+            stuned1 = true;
+           
+        }
+        if (collision.gameObject.tag == ("Aspire") && GonnaAttack2)
+        {
+            stuned2 = true;
+        }
     }
 }
