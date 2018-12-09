@@ -1246,7 +1246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &128623009
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16233,6 +16233,11 @@ Prefab:
     - target: {fileID: 1239604889117648, guid: e360665d0d2724f4f8488383420177c1, type: 2}
       propertyPath: m_Name
       value: Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 114403005502447402, guid: e360665d0d2724f4f8488383420177c1,
+        type: 2}
+      propertyPath: levelname
+      value: level_3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e360665d0d2724f4f8488383420177c1, type: 2}

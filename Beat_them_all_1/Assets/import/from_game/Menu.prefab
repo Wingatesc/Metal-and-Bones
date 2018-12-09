@@ -459,7 +459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13570e00d285407468e4ebddd1f4c223, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Scene: {fileID: 102900000, guid: d06797ce8680b9545b83ddfc9b8c4a02, type: 3}
+  levelname: Start_menu
 --- !u!114 &114217843058079896
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -689,7 +689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13570e00d285407468e4ebddd1f4c223, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Scene: {fileID: 102900000, guid: f1639911c1d48d548b9928e762cd92b5, type: 3}
+  levelname: level_7
 --- !u!114 &114430052654388868
 MonoBehaviour:
   m_ObjectHideFlags: 1
