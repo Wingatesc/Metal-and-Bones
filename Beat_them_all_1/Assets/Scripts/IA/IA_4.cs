@@ -205,10 +205,10 @@ public class IA_4 : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("void on trigger");
+       // Debug.Log("void on trigger");
         if (collision.gameObject.tag == ("Pouss") && GonnaAttack1)
         {
-            Debug.Log("collide with pouss");
+            //Debug.Log("collide with pouss");
             stuned1 = true;
            
         }

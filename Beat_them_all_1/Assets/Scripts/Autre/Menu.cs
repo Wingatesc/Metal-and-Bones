@@ -16,14 +16,17 @@ public class Menu : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             open = !open;
+            
         }
         if (open)
         {
             menu.SetActive(true);
+            Time.timeScale = 0;
         }
         else
         {
             menu.SetActive(false);
+            Time.timeScale = 1;
         }
     }
 }

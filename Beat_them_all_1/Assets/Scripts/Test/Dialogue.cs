@@ -66,7 +66,7 @@ public class Dialogue : MonoBehaviour {
             text();
             state_bool = false;
             can_talk = true;
-            Debug.Log("can_talk");
+           // Debug.Log("can_talk");
             a_cacher1.SetActive(false);
             a_cacher2.SetActive(false);
             a_cacher3.SetActive(false);
