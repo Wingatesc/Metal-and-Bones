@@ -214,7 +214,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.606}
   m_AnchorMax: {x: 0.85969967, y: 1}
-  m_AnchoredPosition: {x: 7.1399994, y: -6.300003}
+  m_AnchoredPosition: {x: 7.1400146, y: -6.299988}
   m_SizeDelta: {x: -39.600006, y: 11.600006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &31644457
@@ -352,7 +352,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.800003, y: -2.6399994}
+  m_AnchoredPosition: {x: -1.8000183, y: -2.6399994}
   m_SizeDelta: {x: -25.17, y: -16.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &167093188
@@ -5809,7 +5809,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.5999908, y: -1.3400002}
+  m_AnchoredPosition: {x: 3.5999756, y: -1.3400002}
   m_SizeDelta: {x: -24.27, y: -17.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1390507969
@@ -5959,8 +5959,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -41.73999, y: 19.200012}
-  m_SizeDelta: {x: 66.54, y: 16.5}
+  m_AnchoredPosition: {x: -86.910034, y: 29.359985}
+  m_SizeDelta: {x: 161.64, y: 37.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2088997499
 MonoBehaviour:
@@ -5974,7 +5974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.85294116, g: 0.48131084, b: 0.2822232, a: 1}
+  m_Color: {r: 0.67800003, g: 0.38254133, b: 0.22392666, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5983,10 +5983,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 61b75d9334471e84bb68bb48dc77b944, type: 3}
-    m_FontSize: 12
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 1
+    m_MinSize: 22
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -5994,7 +5994,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ' Build 3.5.1'
+  m_Text: ' Build 3.6'
 --- !u!222 &2088997500
 CanvasRenderer:
   m_ObjectHideFlags: 0

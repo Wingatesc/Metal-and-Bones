@@ -67,6 +67,8 @@ public class IA_4 : MonoBehaviour
         GonnaAttack1 = false;
         GonnaAttack2 = false;
         anim.SetBool("Stun1", true);
+        flip.color = new Color(0.5f, 0.5f, 0.5f, 1f);
+
         timerStun += Time.deltaTime;
         if (timerStun >= timerStopStun)
         {
