@@ -10961,7 +10961,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Level 3: Astana street'
+  m_Text: Astana street
 --- !u!222 &1419671229
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14834,11 +14834,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4811513068858120, guid: ae8b5a87bd98a09468e971f0a652ea7f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -32.4
+      value: -32.8
       objectReference: {fileID: 0}
     - target: {fileID: 4811513068858120, guid: ae8b5a87bd98a09468e971f0a652ea7f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 4811513068858120, guid: ae8b5a87bd98a09468e971f0a652ea7f, type: 2}
       propertyPath: m_LocalPosition.z
@@ -16238,6 +16238,11 @@ Prefab:
         type: 2}
       propertyPath: levelname
       value: level_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224024362508807030, guid: e360665d0d2724f4f8488383420177c1,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.049987793
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e360665d0d2724f4f8488383420177c1, type: 2}

@@ -3,14 +3,14 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEditor;
 
-public class loadappli_but_fix : MonoBehaviour {
+public class loadappli_button : MonoBehaviour {
 
     //public SceneAsset Scene;
     public string levelname;
 
     public void OnClick(){
         // SceneManager.LoadScene(levelname, LoadSceneMode.Single);
-        Application.LoadLevel(levelname);
+        SceneManager.LoadScene(levelname);
 
     }
 

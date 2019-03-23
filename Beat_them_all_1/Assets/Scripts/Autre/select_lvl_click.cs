@@ -27,12 +27,14 @@ public class select_lvl_click : MonoBehaviour {
     void OnMouseDown()
     {
         son.Play();
-        parti.Play();
         Invoke("ChangeLvl", 2);
+        parti.Play();
        
+        Debug.Log("invoke ready");
     }
     void ChangeLvl() {
         SceneManager.LoadScene(levelname);
+        
     }
     void OnMouseExit()
     {
