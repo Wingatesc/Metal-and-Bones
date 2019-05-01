@@ -36,15 +36,15 @@ public class Poing : MonoBehaviour
     public float timer_power;
     public bool peut_attirer = true;
     public bool peut_attirer2 = true;
-    private bool peut_pouss;
+    private bool peut_pouss=true;
     // Use this for initialization
     void Start()
     {
-        //  timer_att = 1;
+       
         anim = GetComponent<Animator>();
         state = 0;
         InvokeRepeating("combo", 0, 0.1f);
-        peut_attirer = false;
+      /*  peut_attirer = false;*/
         GameObject music = GameObject.Find("Attire");
         GameObject music2 = GameObject.Find("guns_perso");
         GameObject music3 = GameObject.Find("power_pouss");
@@ -129,7 +129,7 @@ public class Poing : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Z))
+        if (Input.GetKey(KeyCode.Z)|| Input.GetKey(KeyCode.W))
         {
             anim.SetBool("marche", false);
         }
@@ -144,31 +144,22 @@ public class Poing : MonoBehaviour
             son_poing_whoosh.Play();    
         }
         //*****************************************************************
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E)&& peut_attirer)
         {
+            peut_pouss = false;
             anim.SetTrigger("attract");
             attirer();
             attire.Play();           
-            /* peut_attirer2 = true;
-             peut_attirer = true;*/
         }
 
-       /* if (peut_attirer)
-        {
-            timer_power += Time.deltaTime;
-        }
-        else
-        {
-            timer_power = 0;
-        }*/
         if (Input.GetKeyUp(KeyCode.E))
 
         {
+            peut_pouss = true;
             attire.Stop();
             Destroy(attract_clone);
-           // peut_attirer = false;
         }
-        if (Input.GetKeyUp(KeyCode.R) && timer_power <= 1)
+        if (Input.GetKeyDown(KeyCode.R) && timer_power <= 1&&peut_pouss)
         {
             if (timer_pousse > time_btw_pousse)
             {
@@ -178,8 +169,16 @@ public class Poing : MonoBehaviour
                 timer_pousse = 0;
             }
 
-            peut_attirer = false;
-            peut_attirer2 = false;
+           /* peut_attirer = false;
+            peut_attirer2 = false;*/
+        }
+        if (Input.GetKey(KeyCode.R))
+        {
+            peut_attirer = false;       
+        }
+        if (Input.GetKeyUp(KeyCode.R))
+        {
+            peut_attirer = true;
         }
         //**********************************************************
         if ((Input.GetKeyDown(KeyCode.T) && tech_script.Ultra_power >= 1))

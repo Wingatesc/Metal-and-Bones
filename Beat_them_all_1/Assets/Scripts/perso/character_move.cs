@@ -3,6 +3,7 @@ using System.Collections;
 
 public class character_move : MonoBehaviour {
 	public float speed=10f;
+    public float move2;
     public CapsuleCollider2D coll;
 	public float jumpForce = 300f;
 	public Rigidbody2D perso;
@@ -72,8 +73,18 @@ public class character_move : MonoBehaviour {
             anim.SetBool("en_l_air", true);
             coll.size = new Vector2(0.71f, 1.54f);
         }
-      
+        
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
+
+       /* move2 = Input.GetAxis("Vertical");
+        if (grounded&& Input.GetKey(KeyCode.UpArrow))
+        {
+            jumpSound.Play();
+             perso.velocity = new Vector2(perso.velocity.x, move2 * jumpForce);
+            anim.SetTrigger("Jump");
+            anim.SetBool("en_l_air", true);
+        }*/
+
     }
         void Update () {
 
@@ -86,15 +97,17 @@ public class character_move : MonoBehaviour {
              anim.SetTrigger("Jump");
              anim.SetBool("en_l_air", true);
          }*/
-        if (grounded && Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            jumpSound.Play();
-            //  perso.AddForce(new Vector2(0, jumpForce));
-            // perso.velocity = new Vector2(perso.velocity.x, perso.velocity.y+jumpForce);
-            perso.velocity = new Vector2(perso.velocity.x, jumpForce);
-            anim.SetTrigger("Jump");
-            anim.SetBool("en_l_air", true);
-        }
+         if (grounded && Input.GetKeyDown(KeyCode.UpArrow))
+         {
+             jumpSound.Play();
+             //  perso.AddForce(new Vector2(0, jumpForce));
+             // perso.velocity = new Vector2(perso.velocity.x, perso.velocity.y+jumpForce);
+             perso.velocity = new Vector2(perso.velocity.x, jumpForce);
+             anim.SetTrigger("Jump");
+             anim.SetBool("en_l_air", true);
+         }
+  
+
     }
 
 	void Flip(){
